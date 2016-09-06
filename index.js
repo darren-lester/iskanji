@@ -7,7 +7,8 @@
 
 function isKanji(ch) {
 	return (ch >= "\u4e00" && ch <= "\u9faf") ||
-	(ch >= "\u3400" && ch <= "\u4dbf");
+	(ch >= "\u3400" && ch <= "\u4dbf") ||
+	ch === "𠮟";
 }
 
 module.exports = isKanji;
