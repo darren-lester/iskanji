@@ -1,6 +1,6 @@
 {
   "name": "iskanji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Determine whether or not a character is a kanji",
   "main": "index.js",
   "scripts": {
