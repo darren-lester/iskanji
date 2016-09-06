@@ -1,11 +1,13 @@
 // Author: Darren Lester
-// Date: 28/08/2016
 // Description: Basic non-exhaustive testing; a sanity check.
+// License: MIT
 
 "use strict";
 
 var chai = require("chai");
 var assert = chai.assert;
+var kanji = require("joyo-kanji").kanji;
+
 var isKanji = require("../index.js");
 
 function testArray(array, expected) {
@@ -53,9 +55,6 @@ describe("isKanji", function(){
 	});
 
 	it("should return true for kanji", function(){
-		var kanji = ["木", "水", "時", "人", "日", "本", "食", "飲", "愛", "家",
-		"金", "電", "車", "子", "音", "女", "男", "父", "母"];
-
 		testArray(kanji, true);
 	});
 });
