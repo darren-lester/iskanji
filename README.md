@@ -1,12 +1,12 @@
-#isKanji
+# isKanji
 Determine whether or not a character is a kanji.
 
-##Installation
+## Installation
 ```bash
 $ npm install iskanji
 ```
 
-##Example
+## Example
 ```javascript
 var isKanji = require("iskanji");
 
@@ -14,7 +14,7 @@ isKanji("a"); // false
 isKanji("あ"); // false
 isKanji("木"); // true
 ```
-##Tests
+## Tests
 Install dependencies then run the npm script _test_
 
 ```bash
@@ -22,5 +22,5 @@ $ npm install
 $ npm test
 ```
 
-##License
+## License
 [MIT](LICENSE)
